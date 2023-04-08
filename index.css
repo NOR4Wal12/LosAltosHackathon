@@ -1,0 +1,91 @@
+*{
+    border:unset;
+    margin:unset;
+}
+nav{
+    background: green;
+    height:5rem;
+    line-height:5rem;
+    color:white;
+    font-size:5rem;
+    padding-left:2rem;
+    margin-bottom: 1rem;
+}
+form {
+    border: 1rem solid green;
+    width:50%;
+    background:green;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+form button{
+    background-color:lightgreen;
+    color:black;
+    
+    text-align: center;
+    text-decoration: none;
+}
+form button[type="submit"]{
+    padding: 15px 32px;
+}
+.alternativeLogins{
+    display: flex;
+    justify-content: space-between;
+}
+form a img{
+    display: inline-block !important;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background: white;
+    color: green;
+    border: 2px solid green;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+label {
+    font-size:2rem;
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    color:black;
+}
+label b{
+    font-size:1.25rem;
+    margin-bottom:0.5rem;
+    color:black;
+}
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    max-width: 19rem;
+    padding: 0.5rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+.loginLink{
+    display: flex;
+    color:black;
+    text-decoration:none;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:1rem;
+    font-size:1.5rem;
+}
+.loginLink:hover{
+    color:green;
+}

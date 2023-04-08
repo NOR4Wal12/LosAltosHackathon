@@ -1,0 +1,17 @@
+{
+  "name": "HatinIsMid",
+  "short_name": "Minecraft",
+  "description": "literal minecraft",
+  "scope": "/minecraft/",
+  "start_url": "/minecraft/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/minecraft/assets/judgement_core.png",
+        "type": "image/png",
+        "sizes": "700x700"
+      }
+  ]
+}
