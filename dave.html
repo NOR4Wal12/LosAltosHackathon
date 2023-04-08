@@ -15,10 +15,36 @@
                 <br><br><br>I should maybe add more ehre
                 <h4 id="messageInput">Create an account here</h4>
                 <input placeholder="Enter Username" id="makeUser">
+                <p id="cottonCounter"> </p>
             </p>
         </body>
     </div>
     
+    <script>
+        let api;
+        let diet = ''
+        let key = '02231ea4a5f44b5c836e3ba3a84357ba';
+        let number = '1'; // change this later
+        let img;
+        let favorites = [];
+        
+        // SETUP("pasta");
+        async function SETUP(FOOD) {
+          await fetch(`https://api.spoonacular.com/recipes/complexSearch?query=${FOOD}&diet=${diet}&number=${number}&apiKey=${key}`)
+            .then((response) => { return response.json(); })
+            .then((jsonData) => { api = jsonData; });
+        
+          // document.getElementById('def').innerHTML = api.results[0].title;
+          // document.getElementById('img').src = api.results[0].image;
+          
+        
+          // prints link to image to card
+          let id = api.results[0].title;
+          // console.log(`https://api.spoonacular.com/recipes/${id}/card?apiKey=${key}`)
+          document.getElementById("cottonCounter").innerHTML = id;
+        }
+    </script>
+
     <footer>
         <div class = "parallaxblackfooter">
             <p style = "color:white;font-size:16px;text-align:center;">Contact me</p>
