@@ -2,14 +2,14 @@
   "name": "Hackathon Project",
   "short_name": "Altos",
   "description": "hackathon project",
-  "scope": "/F-inder/",
-  "start_url": "/F-inder/",
+  "scope": "/altos2023/",
+  "start_url": "/altos2023/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
   "icons": [
       {
-        "src": "/F-inder/assets/logo.png",
+        "src": "/altos2023/assets/logo.png",
         "type": "image/png",
         "sizes": "700x700"
       }
