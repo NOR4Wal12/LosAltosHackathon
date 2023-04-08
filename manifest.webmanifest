@@ -1,15 +1,15 @@
 {
-  "name": "HatinIsMid",
-  "short_name": "Minecraft",
-  "description": "literal minecraft",
-  "scope": "/minecraft/",
-  "start_url": "/minecraft/",
+  "name": "Hackathon Project",
+  "short_name": "Altos",
+  "description": "hackathon project",
+  "scope": "/F-inder/",
+  "start_url": "/F-inder/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
   "icons": [
       {
-        "src": "/minecraft/assets/judgement_core.png",
+        "src": "/F-inder/assets/logo.png",
         "type": "image/png",
         "sizes": "700x700"
       }
